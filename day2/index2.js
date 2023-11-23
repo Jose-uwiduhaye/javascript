@@ -44,7 +44,7 @@ console.log('The value of num is: ' + num4);
 
 const 
 numg = 2;
-console.log(numg);
+console.log(numgfo);
 
 
 
