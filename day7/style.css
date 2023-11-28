@@ -1,0 +1,20 @@
+.pointer {
+    cursor: wait;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+.pointer {
+    padding: 10px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 5px;
+}
