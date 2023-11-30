@@ -1,0 +1,10 @@
+let year =2004;
+console.log(typeof year);
+console.log(year);
+let country ="Rwanda";
+console.log(typeof country);
+console.log(country);
+let Rwandaisitcountry=true;
+console.log(typeof Rwandaisitcountry);
+let num =1357674767466n;
+console.log(typeof num);
