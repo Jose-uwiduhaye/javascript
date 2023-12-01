@@ -1,0 +1,20 @@
+let a=1998;
+console.log(typeof a);
+let b="josee";
+console.log(typeof b);
+let c=true;
+console.log(typeof c);
+let d;
+console.log(typeof d);
+let e=133400000n;
+console.log(typeof e);
+let country="Rwanda";
+let containent="Africa";
+console.log(country);
+console.log(containent);
+let sentence=  `${country} is located in ${containent}`;
+
+console.log (sentence);
+ let str="jose";
+console.log(str.length);
+console.log(str.charAt(0));

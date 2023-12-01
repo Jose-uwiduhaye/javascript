@@ -1,4 +1,4 @@
-let year =2004;
+dalet year =2004;
 console.log(typeof year);
 console.log(year);
 let country ="Rwanda";
