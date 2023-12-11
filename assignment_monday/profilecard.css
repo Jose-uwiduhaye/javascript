@@ -1,0 +1,25 @@
+.card{
+    border: 100px;
+    text-align: center;
+    border-radius: 20px;
+    width: 100%;
+    float: none;
+    justify-content: space-between;
+}
+@media screen and (max-width: 600px) {
+    .card {
+      width: 100%;
+      float: none;
+      justify-content: space-between;
+    }}
+  .header{
+    margin-left: 300px;
+  
+  }
+  .image{
+    width: 100px;
+    height: auto;
+    border-radius: 70%;
+    text-align: center;
+    margin-right: 400px;
+  }

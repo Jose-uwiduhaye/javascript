@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="testmonial.css">
+    <title>Testimonial Slider</title>
+</head>
+<body>
+
+<div class="testimonial-container">
+    <img src="jose-removebg-preview.png">
+    <div class="testimonial" id="testimonial1">
+        
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."</p>
+        <span class="author"> UWIDUHAYE</span>
+    </div>
+
+    <div class="testimonial" id="testimonial2">
+        <img src="jose-removebg-preview.png">
+        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+        <span class="author">UWIDUHAYE</span>
+    </div>
+    <div class="testimoniall" id="testimonial3">
+        <img src="jose-removebg-preview.png">
+        <p>"Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."</p>
+        <span class="author">UWIDUHAYE</span>
+    </div>
+
+    <div class="navigation">
+        <button onclick="showTestimonial(1)">1</button>
+        <button onclick="showTestimonial(2)">2</button>
+       
+    </div>
+</div>
+
+<script >
+
+
+let currentTestimonial = 1;
+
+function showTestimonial(n) {
+    document.getElementById(`testimonial${currentTestimonial}`).style.display = 'none';
+
+    document.getElementById(`testimonial${n}`).style.display = 'block';
+    currentTestimonial = n;
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,101 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Dropdown </title>
+  <style>
+    .drop a {
+      float: left;
+      display: flex;
+      color: #f2f2f2;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    .drop a:hover {
+      background-color: #ddd;
+      color: black;
+    }
+
+    .dropdown {
+      float: left;
+      overflow: hidden;
+    }
+
+    .dropdown .btn {
+      font-size: 16px;
+      border: none;
+      outline: none;
+      color: black(196, 27, 27);
+      padding: 14px 16px;
+      background-color: aqua;
+    
+    }
+
+    .drop a, .dropdown:hover .btn {
+      background-color: #555;
+    }
+
+    .content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      
+    }
+
+    .content a {
+      float: none;
+     
+    }
+
+    .dropdown:hover .content {
+      display: block;
+    }
+
+    @media screen and (max-width: 500px) {
+      .drop a, .dropdown .btn {
+        display: none;
+      }
+      
+    }
+  </style>
+</head>
+<body>
+
+<div class="drop">
+  <a href="#home">Home</a>
+  <a href="#About">About</a>
+
+  <div class="dropdown">
+    <button class="btn">Contact
+     
+    </button>
+    <div class="content">
+      <a href="#Contact A">Jose A</a>
+      <a href="#contact B">Jose B</a>
+      <a href="#contact C">Jose C</a>
+    </div>
+  </div>
+
+  <a href="#Login">Login</a>
+  
+</div>
+
+<script>
+ 
+  function myFunction() {
+    var x = document.querySelector(".drop");
+    if (x.Name === "drop") {
+      x.Name += " responsive";
+    } else {
+      x.Name = "drop";
+    }
+  }
+</script>
+
+</body>
+</html>

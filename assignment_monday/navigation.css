@@ -1,0 +1,49 @@
+.container{
+    background-color: black;
+    height: 50px;
+    justify-content: flex-end;
+    display: flex;
+
+    
+}
+nav a{
+    list-style-type: none;
+    text-decoration:  none;
+    color: aliceblue;
+    justify-content: space-between;
+    display: flex;
+    padding-left: 300px;
+    margin-right: 20px;
+  
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    border-radius: 30px;
+  margin-left: 40px;
+}
+.contact{
+ background-color: rgb(164, 101, 19);
+    width: 200px;
+   text-align: center;
+margin-left: 600px;
+}
+.login{
+    background-color: rgb(20, 191, 52);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-left: 600px;
+}
+@media screen and (max-width: 600px) {
+    .nav a {
+      width: 100%;
+      float: none;
+      justify-content: space-between;
+    }}
