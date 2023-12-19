@@ -1,0 +1,134 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none;
+    outline: none;
+    scroll-behavior: smooth;
+    font-family: sans-serif;
+}
+:root{
+    --bg-color:black;
+    --second-bg-color:black;
+    --text-color:#fff;
+    --min-color:#0ef;
+}
+html{
+    font-size: 62.5%;
+    overflow: hidden;
+}
+body{
+    background-color:  gray;
+    color: var(--text-color);
+}
+section{
+    min-height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+.header{
+    position:fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 2rem 9%;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    font-size: 2.5rem;
+    color: var(--text-color);
+    font-weight: 500;
+cursor: default;
+border-radius: 60%;
+}
+.navbar a{
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-left: 4rem;
+    transition: 3s ;
+}
+.navbar a:hover,
+    .navbar a:active{
+    color: (var(--min-color));
+}
+
+
+
+
+.container{
+    justify-content: space-between;
+    display: flex;
+   
+}
+.text{
+    justify-content: space-between;
+}
+.text{
+    justify-content: center;
+    padding-top: 200px;
+    margin: 10px;
+    color: rgb(12, 8, 8);
+}
+.butt{
+    justify-content: space-between;
+    padding-left: 700px;
+    justify-content: center;
+    margin-right: 10px;
+}
+
+.contact{
+    margin-left: 700px ;
+    padding-top: 150px;
+    color: black;
+    margin-bottom: 300px;
+   
+}
+#name{
+    width: 300px;
+    height: 30px;
+    border: none;
+   
+}
+#email{
+    width: 300px;
+    height: 30px;
+
+}
+#message{
+    width: 300px;
+    height: 60px;
+}
+#submit{
+    width: 80px;
+    height: 30px;
+    margin-left:60px;
+
+
+}
+.btn{
+    display: inline-block;
+    padding:  1rem 2.8rem;
+    background-color:rgb(216, 218, 217);
+    border-radius: 4rem;
+    box-shadow: 0 0 1rem var(--min-color);
+    font-size: 1.6rem;
+    font-weight: 600;
+    transition: 5s ease;
+    margin: 80px;
+
+}
+.btn:hover{
+    box-shadow: none;
+}
+
+
+
+
+
