@@ -12,7 +12,7 @@
 }
 :root{
     --bg-color:black;
-    --second-bg-color:rgb(70, 67, 67);
+    --second-bg-color: rgb(165, 165, 165);
     --text-color:#fff;
     --min-color:#0ef;
 }
@@ -21,7 +21,7 @@ html{
     overflow: hidden;
 }
 body{
-    background-color:  rgb(61, 56, 56);
+    background-color:   rgb(165, 165, 165);
     color: var(--text-color);
 }
 section{

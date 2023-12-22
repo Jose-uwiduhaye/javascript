@@ -21,7 +21,7 @@ html{
     overflow: hidden;
 }
 body{
-    background-color:  gray;
+    background-color:  rgb(165,156,156);
     color: var(--text-color);
 }
 section{

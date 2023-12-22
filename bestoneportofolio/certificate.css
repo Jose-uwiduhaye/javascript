@@ -128,11 +128,9 @@ border-radius: 60%;
 }
 .he{
     color: aliceblue;
-    padding-right: 500px;
     margin-top: 100px;
     width:700px;
-    margin-right: -200px;
-
+    margin-left: 700px;
 }
   .certicate{
     margin-bottom: -100px;
@@ -144,19 +142,44 @@ border-radius: 60%;
         margin-top: 100px;
         width:700px;
         margin-right: -200px;
-       
-    
-
     }
     .hee{
         display: flex;
     }
 
-    .cert{
+    /* .cert{
        
-       margin-left: 500px;
+       margin-left: 400px;
+
+
+    } */
+    /* .cert .he{
+        margin-left: 100px;
+        margin-bottom: -0px;
+        display: flex;
+    } */
+    .a{
+        margin-top: -500px;
+        margin-left: 550px;
+    }
+    .b{
+     
+        display: flex;
+        flex-direction: column;
 
     }
-    .cert .he{
-        margin-left: 100px;
+   
+    /*  .cert-two{
+        display: flex;
+        flex-direction: column;
+    }
+    .cert .cert-one .cert-two{
+        display: flex;
+    
+    } */
+    .cert{
+        display: flex;
+        justify-content: center;
+        margin-top: 10px;
+        gap: 10px;
     }

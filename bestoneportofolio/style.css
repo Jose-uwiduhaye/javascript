@@ -45,6 +45,7 @@ section{
     font-weight: 500;
 cursor: default;
 border-radius: 60%;
+/* animation:slideRight 1s ease forwards; */
 }
 .navbar a{
     font-size: 1.7rem;
@@ -69,6 +70,7 @@ border-radius: 60%;
 }
 .home-img img{
     width: 35vw;
+    animation: zoomIn 1s ease forwards,floatImage  4s ease-in-out infinite;
 }
   .home-content h3{
     font-size: 3.2rem;
@@ -101,7 +103,10 @@ border-radius: 60%;
     color: var(--main-color);
     margin: 3rem 1.5rem 3rem 0;
     transition: 5s ease;
-}
+    /* display:grid;
+    margin-left: -80px;
+*/
+} 
 .social-media a:hover{
     background-color: var(--min-color);
     color: white;
